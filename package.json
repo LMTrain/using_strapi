@@ -1,5 +1,5 @@
 {
-  "name": "using-strapi",
+  "name": "femmits",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,12 +16,12 @@
     "strapi-sdk-javascript": "^0.3.3"
   },
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "cd servers && strapi start",
-    "client": "npm run start",
-    "install": "npm install",
-    "build": "react-scripts build",    
-    "heroku-postbuild": "npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    
+     
   },
   "eslintConfig": {
     "extends": "react-app"
