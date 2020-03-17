@@ -19,6 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "start:prod": "cd servers && node server.js",
     "eject": "react-scripts eject"
     
      
