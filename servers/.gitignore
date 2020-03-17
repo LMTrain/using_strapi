@@ -31,7 +31,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-package.json
 node_modules
 package-lock.json
 
